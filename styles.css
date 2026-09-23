@@ -1,0 +1,156 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkM1oIygfwPBUPPZJY1W7Skn-8_CH-uyQThvz33truOx9Y91u8hWNJpcU&s=10");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+       
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.89);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 1%;
+    width: 100%;
+}
+
+.logo-esumer {
+    padding: 10px 1px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-esumer img {
+    max-width: 260px;
+    height: auto;
+    display: block;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.89);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form {
+    background: #ffffff;
+    padding: 4%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+form h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #030eac;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: rgb(48, 66, 165);
+}
+
+button[type="submit"] {
+    background-color: rgb(5, 32, 107);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #405886;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+
+footer h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+footer div img {
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+footer div img:hover {
+    transform: scale(1.1);
+}
+
+.desarrollado {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: rgb(226, 219, 209);
+}
+
+.mafe {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: rgb(138, 138, 138);
+}
+
+.mensaje {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: rgb(138, 138, 138); 
+}
